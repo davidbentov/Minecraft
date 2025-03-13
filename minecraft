@@ -1,0 +1,72 @@
+#!/bin/bash
+
+# Configuration
+JAVA_EXECUTABLE="java"                      # Path to the Java executable
+SERVER_JAR="minecraft-server.jar"  # Path to your Minecraft server JAR
+TLAUNCHER_PATH="TLauncher/TLauncher.jar"     # Path to your TLauncher JAR
+SERVER_MEMORY="-Xms1G -Xmx2G"               # Memory settings for the server
+TLAUNCHER_MEMORY="-Xms512M -Xmx1G"          # Memory settings for TLauncher
+SERVER_LOG="server.log"            # Log file for the server
+PID_FILE="/tmp/minecraft_server.pid"        # File to store server PID
+
+# Function to start the server
+start_server() {
+    if [ -f "$PID_FILE" ] && kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
+        echo "Minecraft server is already running with PID $(cat "$PID_FILE")."
+        exit 1
+    fi
+
+    echo "Starting Minecraft server..."
+    cd minecraft-server
+    time nohup $JAVA_EXECUTABLE $SERVER_MEMORY -jar "$SERVER_JAR" >> "$SERVER_LOG" 2>&1 &
+    echo $! > "$PID_FILE"
+    echo "Minecraft server started with PID $(cat "$PID_FILE")."
+}
+
+# Function to stop the server
+stop_server() {
+    if [ ! -f "$PID_FILE" ] || ! kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
+        echo "Minecraft server is not running."
+        exit 1
+    fi
+
+    echo "Stopping Minecraft server..."
+    kill "$(cat "$PID_FILE")" && rm -f "$PID_FILE"
+    echo "Minecraft server stopped."
+}
+
+# Function to restart the server
+restart_server() {
+    echo "Restarting Minecraft server..."
+    stop_server
+    sleep 5
+    start_server
+}
+
+# Function to start TLauncher
+start_tlauncher() {
+    echo "Starting TLauncher..."
+    nohup $JAVA_EXECUTABLE $TLAUNCHER_MEMORY -jar "$TLAUNCHER_PATH" >> /dev/null 2>&1 &
+    echo "TLauncher started."
+}
+
+# Handle script arguments
+case "$1" in
+    start)
+        start_server
+        ;;
+    stop)
+        stop_server
+        ;;
+    restart)
+        restart_server
+        ;;
+    start-tlauncher)
+        start_tlauncher
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart|start-tlauncher}"
+        exit 1
+        ;;
+esac
+

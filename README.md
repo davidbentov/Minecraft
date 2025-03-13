@@ -18,10 +18,17 @@ The course includes a series of lessons (`les*.py`) that teach Python programmin
    - Graphical user interface version (`tic_tac_toe_gui.py`)
    - Demonstrates GUI programming with Tkinter
 
+2. **Minecraft Manager**
+   - Command-line version (`start.sh`)
+   - Graphical user interface version (`minecraft_manager.py`)
+   - Demonstrates advanced GUI programming and process management
+
 ## Prerequisites
 - Python 3.x
 - Minecraft Pi API or Minecraft with Pi mod
 - Tkinter (usually comes with Python)
+- Java Runtime Environment (JRE) for Minecraft launchers
+- psutil package for process management
 
 ## Setup Instructions
 
@@ -32,13 +39,19 @@ git clone [your-repository-url]
 
 2. Install required packages:
 ```bash
-pip install mcpi
+pip install mcpi psutil
 ```
 
 3. For Minecraft integration:
    - Install Minecraft Pi mod
    - Start Minecraft
    - Enable the Pi API in Minecraft settings
+
+4. For Minecraft Launchers and Server:
+   - Ensure Java is installed on your system
+   - Place TLauncher.jar in the `TLauncher/` directory
+   - Place PrismLauncher in the `Prism Launcher.app/` directory
+   - Place Spigot server JAR in the `minecraft-server/` directory
 
 ## Running the Programs
 
@@ -60,6 +73,49 @@ python tic_tac_toe.py
 python tic_tac_toe_gui.py
 ```
 
+### Minecraft Launchers and Server
+The project includes two ways to manage Minecraft launchers and server:
+
+#### 1. Command-line Version (start.sh)
+1. Make the script executable:
+```bash
+chmod +x start.sh
+```
+
+2. Run the script:
+```bash
+./start.sh
+```
+
+3. Choose from the available options:
+   - 1: Start Server only
+   - 2: Start TLauncher only
+   - 3: Start PrismLauncher only
+   - 4: Start Server and TLauncher
+   - 5: Start Server and PrismLauncher
+   - 6: Start All
+   - 7: Exit
+
+#### 2. Graphical User Interface (minecraft_manager.py)
+1. Run the GUI manager:
+```bash
+python minecraft_manager.py
+```
+
+Features of the GUI version:
+- Visual status indicators for each component
+- Individual start/stop controls
+- Quick start/stop all buttons
+- Real-time log viewer
+- Error handling with pop-up messages
+- Process status monitoring
+- Memory configuration options
+
+Logs are stored in the `logs/` directory:
+- `server.log`: Minecraft server logs
+- `tlauncher.log`: TLauncher logs
+- `prism.log`: PrismLauncher logs
+
 ## Course Content
 
 ### Minecraft Lessons
@@ -77,10 +133,13 @@ python tic_tac_toe_gui.py
 
 ### Projects
 - Tic-tac-toe game with both CLI and GUI versions
+- Minecraft Manager with both CLI and GUI versions
 - Demonstrates:
   - Object-oriented programming
   - GUI development
-  - Game logic
+  - Process management
+  - Log handling
+  - Error handling
   - User input handling
 
 ## Contributing
@@ -99,4 +158,7 @@ This project is open source and available under the MIT License.
 ## Acknowledgments
 - Minecraft Pi API developers
 - Python community
-- Tkinter documentation 
+- Tkinter documentation
+- TLauncher team
+- PrismLauncher team
+- Spigot team 

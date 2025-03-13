@@ -38,6 +38,7 @@ ENV/
 *.log
 *.db
 *.sqlite3
+logs/
 
 # Distribution / packaging
 .Python
@@ -67,3 +68,11 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+
+TLauncher/
+Prism Launcher.app/
+minecraft-server/
+nohup.out
+server.properties
+eula.txt
+Minecraft_for_MacOS.pdf
