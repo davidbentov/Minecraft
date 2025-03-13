@@ -1,0 +1,89 @@
+
+Invalid initial heap size: -Xms512M -Xmx1024M
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[13:48:19] [main/ERROR]: Failed to load properties from file: server.properties
+[13:48:20] [main/WARN]: Failed to load eula.txt
+[13:48:20] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[13:56:51] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+13:57:04.669 by.gdev.Main INFO  - logs directory /Users/david/Library/Application Support/tlauncher/logs/starter/
+13:57:06.079 by.gdev.Main INFO  - logs directory /Users/david/Library/Application Support/tlauncher/logs/starter/
+13:57:06.080 by.gdev.Main INFO  - starter was run
+13:57:06.274 by.gdev.Main INFO  - starter created Thu Dec 05 14:40:12 IST 2024
+2024-12-06 13:57:11.568 java[9949:2539648] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-06 13:57:11.568 java[9949:2539648] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+13:57:15.320 b.g.util.OSInfo INFO  - uname -pDarwin tovbin-mb.local 24.1.0 Darwin Kernel Version 24.1.0: Thu Oct 10 21:03:15 PDT 2024; root:xnu-11215.41.3~2/RELEASE_ARM64_T6000 x86_64
+
+13:57:15.517 b.g.u.DesktopUtil INFO  - check internet connection https://repo.fastrepo.org timeout 2000 ms
+13:57:15.530 b.g.u.DesktopUtil INFO  - check internet connection https://repo.tlauncher.org timeout 2000 ms
+13:57:15.533 b.g.u.DesktopUtil INFO  - check internet connection http://advancedrepository.com timeout 2000 ms
+Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+13:57:30.809 b.g.c.Starter INFO  - Start loading
+13:57:30.859 b.g.c.Starter INFO  - MACOSX
+13:57:30.859 b.g.c.Starter INFO  - arm
+13:57:31.264 b.g.c.Starter INFO  - app remote config: appConfig.json
+13:57:36.007 b.g.u.s.FileMapperService INFO  - file not exist installedOffers.json
+13:58:07.144 b.g.c.Starter INFO  - loading is complete
+13:58:07.151 b.g.c.Starter INFO  - Start application
+13:58:08.270 b.g.p.JavaProcessHelper INFO  - start command /Users/david/Library/Application Support/tlauncher/starter/jre_default/jre-17.0.10-macOS-arm.jre_temp/bin/java -Xmx1024m -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.time=ALL-UNNAMED --add-opens=java.desktop/java.awt=ALL-UNNAMED --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED --add-opens=java.desktop/sun.java2d=ALL-UNNAMED --add-opens=java.desktop/java.awt.color=ALL-UNNAMED --add-opens=java.desktop/java.awt.image=ALL-UNNAMED --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED --add-opens=java.base/java.util.regex=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/java.beans=ALL-UNNAMED --add-opens=javafx.web/com.sun.webkit.network=ALL-UNNAMED -cp /Users/david/Library/Application Support/tlauncher/starter/dependencies/aopalliance-1.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/checker-qual-3.12.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-codec-1.9.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-compress-1.23.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-io-2.11.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-lang3-3.4.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-logging-1.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-logging-api-1.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/commons-vfs2-2.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/desktop-common-util-1.11.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/DiscordIPC-0.5.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/dnsjava-2.1.8.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/error_prone_annotations-2.18.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/failureaccess-1.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/fluent-hc-4.5.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/gson-2.8.8.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/guava-31.0.1-jre.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/guice-7.0.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/guice-assistedinject-7.0.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/hamcrest-core-1.3.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/http-download-1.11.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/httpclient-4.5.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/httpcore-4.4.4.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/j2objc-annotations-1.3.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jakarta.inject-api-2.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-base-17.0.0.1-win.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-base-17.0.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-controls-17.0.0.1-win.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-controls-17.0.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-graphics-17.0.0.1-win.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-graphics-17.0.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-media-17.0.0.1-win.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-media-17.0.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-swing-17.0.0.1-win.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-swing-17.0.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-web-17.0.0.1-win.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javafx-web-17.0.0.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/javax.annotation-api-1.3.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jaxb-api-2.3.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jaxb-core-2.3.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jaxb-impl-2.3.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jcl-over-slf4j-1.7.25.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jopt-simple-5.0.4.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/json-20230227.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/jsr305-3.0.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/junit-4.13.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/junixsocket-common-2.6.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/junixsocket-native-common-2.6.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/junrar-0.7.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/log4j-1.2.17.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/logback-classic-1.2.10.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/logback-core-1.2.10.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/lombok-1.18.30.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/maven-scm-api-1.4.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/maven-scm-provider-svn-commons-1.4.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/maven-scm-provider-svnexe-1.4.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/MinecraftServerPing-1.0.2.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/mockserver-netty-no-dependencies-5.14.0.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/modpack-dto-2.2914.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/picture-bundle-3.72.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/plexus-utils-1.5.6.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/regexp-1.3.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/skin-server-API-1.3.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/slf4j-api-1.7.25.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/statistics-dto-1.73.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/tlauncher-resource-1.6.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/url-cache-1.1.jar:/Users/david/Library/Application Support/tlauncher/starter/dependencies/xz-1.9.jar:/Users/david/Library/Application Support/tlauncher/starter/original-TLauncher-2.924.jar: org.tlauncher.tlauncher.rmo.TLauncher -starterConfig=/Users/david/Library/Application Support/tlauncher/starter/starter.json -requireUpdate=true -currentAppVersion=2.924
+13:58:11.057 b.g.s.ConsoleSubscriber INFO  - Loading configuration from file: /Users/david/Library/Application Support/tlauncher/tlauncher-2.0.properties
+13:58:11.883 b.g.s.ConsoleSubscriber INFO  - [Configuration] Constant values: {require.update=true, version.tlauncher=2.924, starter.config=/Users/david/Library/Application Support/tlauncher/starter/starter.json}
+13:58:12.776 b.g.s.ConsoleSubscriber INFO  - [Loading] INITIALIZING
+13:58:13.474 b.g.s.ConsoleSubscriber INFO  - 2024-12-06 13:58:13.466 java[9982:2541256] +[IMKClient subclass]: chose IMKClient_Modern
+13:58:13.475 b.g.s.ConsoleSubscriber INFO  - 2024-12-06 13:58:13.466 java[9982:2541256] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+13:58:38.617 b.g.s.ConsoleSubscriber INFO  - Starting TLauncher 2.924 RELEASE
+13:58:38.622 b.g.s.ConsoleSubscriber INFO  - For more information, visit https://tlauncher.org/
+13:58:38.625 b.g.s.ConsoleSubscriber INFO  - Startup time: 6 дек. 2024 г., 13:58:38
+13:58:38.626 b.g.s.ConsoleSubscriber INFO  - Running folder /Users/david/Library/Application Support/tlauncher/starter
+13:58:38.626 b.g.s.ConsoleSubscriber INFO  - ---
+13:58:38.626 b.g.s.ConsoleSubscriber INFO  - default protocol handler for protocol {} not available https
+13:58:38.879 b.g.s.ConsoleSubscriber INFO  - default protocol handler for protocol {} not available http
+13:58:43.763 b.g.s.ConsoleSubscriber INFO  - [Loading] LOADING_CONFIGURATION
+13:58:43.764 b.g.s.ConsoleSubscriber INFO  - Machine info: -------------------------------------------------------
+13:58:43.771 b.g.s.ConsoleSubscriber INFO  - Mac OS X 15.1.1, Java 17.0.10, jvm bit x64, 32768 MB RAM
+13:58:43.781 b.g.s.ConsoleSubscriber INFO  - java path=/Users/david/Library/Application Support/tlauncher/starter/jre_default/jre-17.0.10-macOS-arm.jre_temp/bin/java
+13:58:43.782 b.g.s.ConsoleSubscriber INFO  - Apple M1 Pro
+13:58:43.782 b.g.s.ConsoleSubscriber INFO  - -------------------------------------------------------
+13:58:43.783 b.g.s.ConsoleSubscriber INFO  - Selected locale: ru
+13:58:45.683 b.g.s.ConsoleSubscriber INFO  - [Loading] LOADING_CONSOLE
+13:58:45.925 b.g.s.ConsoleSubscriber INFO  - [Downloader2] Loaded configuration: good
+13:58:47.927 b.g.s.ConsoleSubscriber INFO  - [Browser] Loading resources...
+13:58:48.329 b.g.s.ConsoleSubscriber INFO  - [JFXStartPageLoader]  start load page: https://page.tlauncher.org/update/downloads/configs/pages/index_ru.html
+13:58:50.601 b.g.s.ConsoleSubscriber INFO  - [Browser] Cleaning up after loading:
+13:58:50.683 b.g.s.ConsoleSubscriber INFO  - Starting garbage collector: 46 / 84 MB
+13:58:50.833 b.g.s.ConsoleSubscriber INFO  - Garbage collector completed: 29 / 84 MB
+13:58:50.846 b.g.s.ConsoleSubscriber INFO  - [Browser] Running in JavaFX Thread
+13:58:50.853 b.g.s.ConsoleSubscriber INFO  - [Browser] Preparing JavaFX...
+13:58:50.930 b.g.s.ConsoleSubscriber INFO  - [Loading] LOADING_MANAGERS
+13:58:50.998 b.g.s.ConsoleSubscriber INFO  - [Browser] Initializing...
+13:58:51.099 b.g.s.ConsoleSubscriber INFO  - [LocalVersionList] Base directory: /Users/david/Library/Application Support/minecraft
+13:58:51.725 b.g.s.ConsoleSubscriber INFO  - [ProfileManager] Refreshing profiles from: /Users/david/Library/Application Support/minecraft/TlauncherProfiles.json
+13:58:51.965 b.g.s.ConsoleSubscriber INFO  - [JFXStartPageLoader]  succeeded load page: https://page.tlauncher.org/update/downloads/configs/pages/index_ru.html during 3
+13:58:51.966 b.g.s.ConsoleSubscriber INFO  - [Browser@22072828] Loaded successfully: "https://page.tlauncher.org/update/downloads/configs/pages/index_ru.html"
+13:58:52.020 b.g.s.ConsoleSubscriber INFO  - [Browser] fx thread has waited status of ad
+13:58:52.180 b.g.s.ConsoleSubscriber INFO  - [AdvertisingStatusObserver]  started to get ad information
+13:58:52.180 b.g.s.ConsoleSubscriber INFO  - [AdvertisingStatusObserver]  finished to get add information
+13:58:52.181 b.g.s.ConsoleSubscriber INFO  - save profiles
+13:58:52.184 b.g.s.ConsoleSubscriber INFO  - [Browser] fx thread continuing work
+13:58:52.190 b.g.s.ConsoleSubscriber INFO  - [GsonUtil]  request to https://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.7.json
+13:58:52.190 b.g.s.ConsoleSubscriber INFO  - [Browser] add listens into server_choose
+13:58:52.190 b.g.s.ConsoleSubscriber INFO  - [Browser] finished listens into server_choose
+13:58:52.371 b.g.s.ConsoleSubscriber INFO  - [Loading] LOADING_WINDOW
+13:58:52.638 b.g.s.ConsoleSubscriber INFO  - [REPO][SERVER_LIST_REPO] Success: Reached the repo in 399 ms.
+13:58:53.983 b.g.s.ConsoleSubscriber INFO  - [Loading] PREPARING_MAINPANE
+13:58:56.437 b.g.s.ConsoleSubscriber INFO  - [Downloader2] Loaded configuration: good
+13:59:10.273 b.g.s.ConsoleSubscriber INFO  - [Loading] POSTINIT_GUI
+13:59:11.061 b.g.s.ConsoleSubscriber INFO  - [Frame] Packing main frame...
+13:59:12.912 b.g.s.ConsoleSubscriber INFO  - [Frame] Resizing main pane...
+13:59:13.063 b.g.s.ConsoleSubscriber INFO  - Visibility set.
+13:59:13.263 b.g.s.ConsoleSubscriber INFO  - [Loading] REFRESHING_INFO
+13:59:13.299 b.g.s.ConsoleSubscriber INFO  - Started! (29575 ms.)
+13:59:13.318 b.g.s.ConsoleSubscriber INFO  - [Loading] SUCCESS
